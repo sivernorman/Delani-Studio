@@ -17,3 +17,11 @@ p{
     
     padding-bottom: 70%;
 }
+.services{
+    background-image: url(/images/s_image.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+  
+}
