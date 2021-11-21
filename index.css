@@ -63,7 +63,7 @@ font-size: 20px;
  .services{
    text-align: center;
    padding-bottom: 2%;
-   background-image: url(../_image.jpg);
+   background-image: url(/assets/s_image.jpg);
    background-size: cover;
    color: white;
    font-size: 20px;
@@ -79,7 +79,7 @@ font-size: 20px;
    text-align: center;
  }
  .contact{
-  background-image: url(../c_image.jpg);
+  background-image: url('/assets/c_image.jpg');
 
   background-position:  center;
   background-size: cover;
