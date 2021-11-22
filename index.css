@@ -65,7 +65,8 @@ font-size: 20px;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-
+  margin-top: 20px;
+  height: 400px;
   }
    .footer{
     text-align: center;
@@ -87,5 +88,21 @@ font-size: 20px;
  }
  .portfolio img{
    column-gap: 10px;
+ }
+ 
+ #over{
+   position: relative;
+   bottom: 60%;
+   color:white;
+   left: 15%;
+   background-color: rgba(0, 0, 0, 0.3);
+   width: 70%;
+   height: 55%;
+   border: white 5px solid;
+   font-size: 30px;
+   
+ }
+ #over{
+   display: none;
  }
  
