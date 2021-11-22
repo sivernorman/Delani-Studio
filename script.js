@@ -1,3 +1,15 @@
 $(document).ready(function(){
- 
- })
+ $('#design').click(function(){
+     $('.par').toggle();
+ });
+ });
+ $(document).ready(function(){
+    $('#dev').click(function(){
+        $('.dev').toggle();
+    });
+    });
+    $(document).ready(function(){
+        $('#product').click(function(){
+            $('.product').toggle();
+        });
+        });

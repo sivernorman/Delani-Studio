@@ -73,33 +73,16 @@ font-size: 20px;
     font-family:  serif ;
   
   }
-  footer p{
-    /* padding-top: 40px; */
-  }
- 
-  
-     .col-md-3 img{
-      width:100%px;
-      margin: 20px;
-    }
-    
-  #port{
-    display: flex;
-  column-gap: 10px;
-  }
-   #port2{
-     display: flex; 
-     column-gap: 10px;
-
-     }  
-   
+      
  .we-do p{
    display: none;
  }
  input,textarea{
    background-color: transparent;
    border: 2px solid white;
+   color: white;
  }
  ::placeholder{
    color: white;
  }
+ 
