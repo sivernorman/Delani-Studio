@@ -67,14 +67,14 @@ font-size: 20px;
   text-align: center;
 
   }
-   footer{
+   .footer{
     text-align: center;
      padding-top: 30px;
     font-family:  serif ;
   
   }
   footer p{
-    padding-top: 10px;
+    /* padding-top: 40px; */
   }
  
   
@@ -93,4 +93,13 @@ font-size: 20px;
 
      }  
    
- 
+ .we-do p{
+   display: none;
+ }
+ input,textarea{
+   background-color: transparent;
+   border: 2px solid white;
+ }
+ ::placeholder{
+   color: white;
+ }
