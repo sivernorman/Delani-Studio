@@ -50,7 +50,8 @@ font-size: 20px;
  }
  .we-do{
    text-align: center;
- }
+  }
+   
  .portfolio{
   justify-content: space-between;
    padding-top: 4%;
@@ -66,13 +67,7 @@ font-size: 20px;
   text-align: center;
 
   }
-  input[type=text],input[type=email],#comment{
-    background: transparent;
-    color: white;
-    font-size: 20px;
-    font-family: 'Copse', serif;
-  }  
-  footer{
+   footer{
     text-align: center;
      padding-top: 30px;
     font-family:  serif ;
@@ -81,28 +76,21 @@ font-size: 20px;
   footer p{
     padding-top: 10px;
   }
-
-  #product, #development, #design{
-    display: flex;
-    font-family: 'Copse', serif;
-    font-size: 16px;
-  }
-  #product .title, #development .title, #design .title{
-    font-size: 20px;
-    font-weight: 600;
-  }
+ 
+  
+     .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    
   #port{
     display: flex;
-  column-gap: 30px;
+  column-gap: 10px;
   }
    #port2{
      display: flex; 
-     column-gap: 30px;
+     column-gap: 10px;
 
      }  
    
-  
-  
-     
-  
  
