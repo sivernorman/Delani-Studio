@@ -77,3 +77,16 @@ $("#work6").hover(function(){
      $(".text8").hide();
  }
  );
+
+const nameInput = document.getElementById("name");
+const emailInput = document.getElementById("email");
+ form.addEventListener("submit",getUserInfo);
+ function getUserInfo(e){
+     if( nameInput.value){
+         alert(` we have received your message. , ${nameInput.value}  Thank you for reaching out to us.`)
+      }else{
+          alert("please fill the input field")
+      }
+       e.preventDefault();
+    
+  }
